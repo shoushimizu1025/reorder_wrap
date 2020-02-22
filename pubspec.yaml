@@ -11,7 +11,7 @@ description: This Widget adds Wrap to the Reorder function.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 name: reorderwrap
-version: 1.0.0+2
+version: 1.0.0+3
 homepage: https://github.com/shoushimizu1025/reorder_wrap
 
 environment:

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:reorderwrap/app/reorder_wrap.dart';
+import 'package:reorderwrap/reorder_wrap.dart';
 
 void main() => runApp(MyApp());
 
