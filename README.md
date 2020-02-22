@@ -70,7 +70,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
-
 ## reorderwrap Class Argument
 ### itemHeight  
 Height of one child Widget.
