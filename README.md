@@ -5,7 +5,9 @@ WrapWidget with sorting function.
 # Demo
 This Widget adds Wrap to the Reorder function.  
 Rearrange the arrangement of multiple widgets and call back the final order, original index, and new index.  
-However, the conditions of the Widget list that can be used are all limited to those of the same vertical and horizontal width.
+However, the conditions of the Widget list that can be used are all limited to those of the same vertical and horizontal width.  
+![Sample1](https://github.com/shoushimizu1025/images/blob/master/sample1.gif)  
+![Sample2](https://github.com/shoushimizu1025/images/blob/master/sample2.gif)
 
 # Usage
 ReorderWrap uses a list widget as an argument, similar to Wrap.  
@@ -68,15 +70,15 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
-## Argument
-itemHeight  
+## reorderwrap Class Argument
+### itemHeight  
 Height of one child Widget.
 
-itemWidth  
+### itemWidth  
 Width of one child Widget.
 
-children  
+### children  
 Widget list as child element.
 
-reorderCallback  
+### reorderCallback  
 You can get indexlist, oldindex, newindex after sorting.
