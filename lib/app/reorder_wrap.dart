@@ -17,13 +17,13 @@ class ReorderWrap extends StatefulWidget {
     @required this.itemWidth
   }) : super(key: key);
 
-  /// 並べ替え後のindexlist, oldindex, newindexを取得できる
+  /// You can get indexlist, oldindex, newindex after sorting
   final ReorderCallback reorderCallback;
-  /// 子要素となるWidgetリスト
+  /// Widget list as child element
   final List<Widget> children;
-  /// 子Widget１つ分の縦幅
+  /// Height of one child Widget
   final double itemHeight;
-  /// 子Widget１つ分の横幅
+  /// Width of one child Widget
   final double itemWidth;
 
   @override
