@@ -4,9 +4,9 @@ import 'package:flutter/scheduler.dart';
 /// コールバック
 typedef ReorderCallback = void Function(List<int> newIndexList, int oldIndex, int newIndex);
 
-/// Widget縦横並べ替え可能Wrap
-/// 複数のWidgetの配置を並べ替えて結果をコールバックする
-/// ただし、使用できるWidgetリストの条件は、全て同じ縦横幅のものとする
+/// This Widget adds Wrap to the Reorder function. 
+/// Rearrange the arrangement of multiple widgets and call back the final order, original index, and new index.
+/// However, the conditions of the Widget list that can be used are all limited to those of the same vertical and horizontal width. 
 class ReorderWrap extends StatefulWidget {
 
   ReorderWrap({
