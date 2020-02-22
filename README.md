@@ -1,12 +1,11 @@
 # reorderwrap
 
-WrapWidget with sorting function.
-
-# Demo
 This Widget adds Wrap to the Reorder function.  
 Rearrange the arrangement of multiple widgets and call back the final order, original index, and new index.  
 However, the conditions of the Widget list that can be used are all limited to those of the same vertical and horizontal width.  
-![Sample1](https://github.com/shoushimizu1025/images/blob/master/sample1.gif)  
+
+# Demo
+![Sample1](https://github.com/shoushimizu1025/images/blob/master/sample1.gif)
 ![Sample2](https://github.com/shoushimizu1025/images/blob/master/sample2.gif)
 
 # Usage
